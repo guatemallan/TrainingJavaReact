@@ -1,0 +1,35 @@
+/* Generador de paleta https://coolors.co */
+/*    (existen muchos más) */
+/* https://coolors.co/a4243b-d8c99b-d8973c-bd632f-273e47 */
+body{
+    background-color: #273E47;
+}
+h1{
+    color:#D8973C;
+}
+p{
+    color:#A4243B;
+    background-color: #D8C99B;
+
+    /*    Valores generales, se aplican en los 4 bordes */
+    /* padding: 15px; */
+    /* border: 10px solid powderblue; */
+    /* margin: 50px; */
+
+    /*    Valores individuales,  */
+    padding: 15px;
+    border: 10px solid #BD632F;
+    /* margin-top: 40px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 20px; */
+    /* margin-left: 10px; */
+
+    /*    En gerarquía: Arriba, Derecha, Abajo, Izquierda */
+    /* margin: 40px 10px 20px 10px; */
+    /*    Simplificando, si quito uno de los lados, el valor aplica para ambos */
+    /* margin: 40px 10px 20px; /* 40 arriba, 10 derecha e izquierda, 20 abajo */
+    /* margin: 15px 10px; /* 15 arriba y abajo, 10 derecha e izquierda */
+    /*    Para centrar horizontalmente */
+    margin: auto 25px;
+    text-align: center;
+}

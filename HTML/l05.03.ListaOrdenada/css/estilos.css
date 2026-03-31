@@ -1,0 +1,20 @@
+ol{
+    list-style: none;
+    /* el contador se resetea con cada lista ordenada */
+    counter-reset: contador;
+}
+/* ol + li */
+/* selector ::before, para agregar un texto antes del item de la lista  */
+ol li::before{
+    /* funcion counter para agregar numero con variable "contador"*/
+    /* inicializamos la variable en ol */
+    content: 'Curso ' counter(contador) ': ';
+    color:#ff6f00;
+}
+ol li{
+    /* el contador se incrementa en cada item de la lista ordenada */
+    counter-increment: contador;
+}
+ol li::after{
+    content: '.';
+}

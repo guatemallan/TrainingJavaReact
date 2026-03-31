@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML con estilo CSS</title>
+    <link href="./css/estilos.css" rel="stylesheet"/>
+    <!-- link para font de google, ver fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <table>
+        <!-- Titulo de la tabla -->
+        <caption>Listado de personas</caption>
+        <!-- Opcional <tbody> -->
+        <tr>
+            <!-- Encabezados -->
+             <th>Nombre</th>
+            <!-- th colspan="2"">Nombre</th> este encabezado ocupa 2 columnas, se remueve la de apellido -->
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+        <!-- Datos -->
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>juan@perez.com</td>
+            <!-- <td rowspan="2">juan@perez.com</td> -->
+            <!-- Esta celda ocupará 2 renglones, se debe omitir la siguiente -->
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Lara</td>
+            <td>m.lara@mail.com</td>
+        </tr>
+        <tr>
+            <td>Linda</td>
+            <td>Flores</td>
+            <td>l.flores@mail.com</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>Garcia</td>
+            <td>j@garcia.com</td>
+        </tr>
+        <!-- </tbody> -->
+    </table>
+</body>
+</html>

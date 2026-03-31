@@ -1,0 +1,18 @@
+h1{
+    color:#f07167;
+}
+a:link{
+    color:#fb8500;
+    text-decoration: none; /* para quitar el subrayado */
+}
+a:visited{
+    color:#219ebc;
+}
+a:hover{ /* mouse sobre el enlace */
+    color:#8ecae6;
+    text-decoration: underline; /* para subrayar el texto al pasar el mouse */
+}
+a:active{ /* cuando se hace clic en el enlace, aun sin soltarlo */
+    color:#023047;
+    text-decoration: underline;
+}

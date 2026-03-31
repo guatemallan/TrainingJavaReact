@@ -2,14 +2,14 @@
 /*    (existen muchos más) */
 /* https://coolors.co/a4243b-d8c99b-d8973c-bd632f-273e47 */
 body{
-    background-color: #273E47;
+    background-color: #F7F7FF;
 }
 h1{
-    color:#D8973C;
+    color:#545E75;
 }
 p{
-    color:#A4243B;
-    background-color: #D8C99B;
+    color:#3F826D;
+    background-color: #F2D0A4;
 
     /*    Valores generales, se aplican en los 4 bordes */
     /* padding: 15px; */
@@ -18,7 +18,7 @@ p{
 
     /*    Valores individuales,  */
     padding: 15px;
-    border: 10px solid #BD632F;
+    border: 10px solid #C03221;
     /* margin-top: 40px; */
     /* margin-right: 10px; */
     /* margin-bottom: 20px; */

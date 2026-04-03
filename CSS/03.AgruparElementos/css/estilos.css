@@ -1,0 +1,10 @@
+/* Agrupamos, este estilo se aplican a todos estos elementos */
+h1, h2, p{
+    color:crimson;
+    text-align: center;
+}
+
+/* selector tipo clase, solo se aplica a elementos tipo parrafo */
+p.verde{
+    color:green;
+}

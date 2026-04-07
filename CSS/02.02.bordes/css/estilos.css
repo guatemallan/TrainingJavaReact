@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.solido{
+    border: solid firebrick;
+    /* background-color: firebrick; */
+    border-width: thin;
+}
+.dashed{
+    border: 10px dashed;
+    /* background-color: hotpink; */
+    border-width: 10px 15px 3px;
+}
+.surco{
+    border: 10px groove #ffd700;
+    /* background-color: gold; */
+}
+.punteado{
+    border: 10px dotted hsl(271, 76%, 53%);
+    /* background-color: blueviolet; */
+}
+.doble{
+    border-style: double;
+    background-color: lime;
+    border-width: 10px 25px;
+}
+.cresta{
+    border: ridge turquoise;
+    /* background-color: turquoise; */
+    border-width: thick;
+}
+.recuadro{
+    border: inset;
+    border-width: medium;
+}
+.outset{
+    border: outset;
+    border-width: medium;
+}
+.sin-borde{
+    border: none;
+}
+.oulto{
+    border: hidden;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+    /* border: 10px; no funciona?*/
+    border-width: 10px 5px 3px 8px;
+}

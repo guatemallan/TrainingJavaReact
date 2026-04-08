@@ -1,0 +1,19 @@
+/* eliminamos los margin y padding default para eliminar efectos no deseados */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    padding: 10px;
+    max-width: 300px;
+    border: 15px solid #457b9d;
+    
+    background-color: #f1faee;
+    
+    /* centrado lateral*/
+    margin: 0 auto;
+}

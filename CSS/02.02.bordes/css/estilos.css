@@ -12,11 +12,12 @@ h1{
     border-width: 10px 15px 3px;
 }
 .surco{
-    border: 10px groove #ffd700;
+    border: 10px groove #ffd700c5; /* en este caso, los ultimos dos digitos son transparencia */
     /* background-color: gold; */
+    border-color: gold crimson lime blueviolet;
 }
 .punteado{
-    border: 10px dotted hsl(271, 76%, 53%);
+    border: 10px dotted hsl(271, 76%, 53%, 0.4);
     /* background-color: blueviolet; */
 }
 .doble{

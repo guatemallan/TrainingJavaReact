@@ -1,0 +1,24 @@
+/* paso 1 */
+body{
+
+    /* esta propiedad resume varias de las anteriores */
+    background: honeydew url("./../img/fondo.png") no-repeat center top;
+
+    /* background-color: honeydew; */
+    color: cornsilk;
+
+    /* paso 2 */
+    /* background-image: url("./../img/fondo.png"); */
+
+    /* paso 3: evitar repeticiones raras */
+    /* background-repeat: no-repeat; */
+    /* background-position: center top; */
+    /* el attachment no funciona si va antes de la carga de la imagen url */
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    background-color: rgba(44, 123, 202, 0.309);
+    height: 1000px;
+}

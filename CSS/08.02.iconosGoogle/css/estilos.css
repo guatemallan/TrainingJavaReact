@@ -1,0 +1,25 @@
+/*
+** ICONOS GOOGLE ****************************
+https://fonts.google.com/icons
+
+De la misma forma que en Bootstrap, hay varias formas de implementarlo, pero la mas simple es por medio de un link de referencia. Ver: https://developers.google.com/fonts/docs/material_icons
+
+El link es parecido al que usamos para obtener google fonts, y se especifica un family=Material+Symbols+Outlined
+
+OJO: buscar developer guide DE ICONOS, no de symbols. O se obtendra un link incorrecto
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+De igual manera se puede hacer con @import
+*/
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+.fondo{
+    vertical-align: bottom;
+    color:blueviolet;
+}

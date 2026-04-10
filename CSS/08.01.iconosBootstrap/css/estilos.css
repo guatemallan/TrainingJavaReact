@@ -1,0 +1,25 @@
+/* 
+https://icons.getbootstrap.com/ 
+CDN : content delivery network, recurso publico 
+CDN Links
+OJO: buscar el CDN de icons.getbootstrap.com -> install -> CDN
+     de lo contrario el link podria ser incorrecto y no funcionar, me pasó con este link:  @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css'); 
+*/
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    /* si no ponemos el width, no se centra */
+    max-width: 400px; 
+}
+.icono-azul{
+    font-size: 2.5em; 
+    color: cornflowerblue; 
+}
+.icono-rojo{
+    font-size: 3em;
+    color: crimson;
+}

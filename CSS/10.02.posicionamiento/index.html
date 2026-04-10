@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Tipos de Posicionamiento</h1>
+    <div>Static: es el valor default</div>
+    <p>parrafo despues de static</p>
+    
+    <div class="relativo">Relative: en este caso si se toman en cuenta las propiedades top, left, etc</div>
+    <p>parrafo despues de relative</p>
+    
+    <div class="ajustado">Fixed: (ajustado) se coloca segun propiedades top, left, bottom y right, incluso poniendose por encima de otros elementos, tampoco cambia su posicion relativa si scroleamos la pagina (como un banner de esos molestos). Puede ser util para menus de navegación</div>
+    <p>parrafo despues de relative</p>
+    
+    <div class="relativo quinientos">
+        En este ejemplo se ilustra como absoluto ancla el elemento al padre, pero hay que modificar su posicion default como static, en este caso lo pusimos relative
+    
+        <div class="absoluto">Absolute: en este caso si se toman en cuenta las propiedades top, left, etc
+            
+        </div>
+    </div>
+    <p>parrafo despues de relative</p>
+
+    <div class="pegajoso">Sicky: este elemento funciona de manera relativa hasta que esta a punto de salir de pantalla, en ese momento usa las propiedades top, right, bottom, left para posicionarse mientras escroleamos</div>
+    <p>parrafo despues de relative</p>
+
+    <p class="dosmil"></p>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+.caja1{
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #457b9d;
+    background-color: #f1faee;
+    box-sizing: border-box;
+    /* este margen se fusiona con todos los otros margenes
+    pero solo top y bottom */
+    margin: 20px;
+}
+.caja2{
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #457b9d;
+    background-color: #f1faee;
+    box-sizing: border-box;
+    /* este margen se fusiona con todos los otros margenes
+    pero solo top y bottom */
+    margin: 30px;
+}

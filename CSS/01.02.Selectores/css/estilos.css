@@ -1,0 +1,25 @@
+/* Selector Universal, aplica a todos los elementos */
+*{
+    background-color: ghostwhite;
+    color: cornflowerblue;
+}
+
+/* selector normal h1 */
+h1{
+    color:blueviolet;
+    text-align: right;
+}
+
+/* Selector de tipo ID para elemento único */
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+/* selector de tipo class */
+.centrar{
+    text-align: center;
+}
+.texto-grande{
+    font-size: 24px;
+}

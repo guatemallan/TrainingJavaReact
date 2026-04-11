@@ -1,0 +1,36 @@
+div.estatico{
+    /* propiedad default */
+    position: static;
+    padding: 15px;
+    border: 3px solid goldenrod;
+    background-color: whitesmoke;
+    height: 100px;
+}
+div.relativo-abajo{
+    position: relative;
+    top:-190px;
+    left: -10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+div.relativo-sobre{
+    position: relative;
+    top:-150px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 112px;
+    border: 3px dashed cornflowerblue;
+    background-color: white;
+    /* con un valor muy pequeno negativo nos aseguramos de que sea el elemento mas abajo, o muy grande de que sea el de mas arriba */
+    z-index: -10000;
+}

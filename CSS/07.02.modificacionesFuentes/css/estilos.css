@@ -1,0 +1,71 @@
+/* .img-centrada{
+    display: block;
+    margin: auto;
+    width: 600px;
+} */
+footer{
+    /* limpiamos los elementos float izquierda y derecha y el elemento continua en la siguiente linea */
+    clear: both;
+    padding: 1px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.texto-justificado{
+    text-align: justify;
+}
+h1{
+    color:#ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ced4da;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja-serif{
+    background-color: purple;
+}
+.caja-sansserif{
+    background-color: #00b4d8;
+}
+.caja-monospace{
+    background-color: #ef476f;
+}
+.caja-cursiva{
+    background-color: #ff8500;
+}
+.fuente-times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+.fuente-georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.fuente-arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.fuente-verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.fuente-courier{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.fuente-lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}

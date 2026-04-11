@@ -1,0 +1,57 @@
+/* 
+HAY 5 TIPOS DE POSICIONAMIENTO:
+1. static
+2. relative
+3. fixed
+4. absolute
+5. sticky
+*/
+h1{
+    text-align: center;
+    color:blueviolet
+}
+div{
+    /* no modifica */
+    /* position: static; */
+    border: 3px solid firebrick;
+    /* margin: auto; */
+    /* max-width: 600px; */
+    /* estas propiedades no tienen efecto por el tipo de posicionamiento default static */
+    /* top: 50px;
+    left:50px; */
+}
+.relativo{
+    position: relative;
+    top:10px;
+    left:50px;
+}
+.ajustado{
+    position: fixed;
+    /* top:10px;
+    left:50px; */
+    /* de esta manera lo enviamos abajo a la derecha */
+    bottom: 0px;
+    right:0px;
+    font-size: x-small;
+}
+.absoluto{
+    position: absolute;
+    bottom:5px;
+    right: 3px;
+}
+.quinientos{
+    width: 600px;
+    height: 200px;
+}
+.dosmil{
+    height: 2000px;
+}
+.pegajoso{
+    position: sticky;
+    /* es necesario setear estas propiedades */
+    top: 0px;
+    /* esta correccion hay que ponerla para que funcione en safari */
+    position: -webkit-sticky;
+
+    /* sticky no funciona en IE */
+}

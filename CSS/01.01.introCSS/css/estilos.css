@@ -1,0 +1,25 @@
+/* CSS - Cascading Stile Sheets */
+
+/* el HTML es la capa Estructural de la página web */
+/* el CSS es la capa De Presentacion de las páginas web */
+
+/* CSS nos ayuda a homogenizar y facilitar las mejoras visualmente nuestras paginas, ya que podemos controlar el aspecto de todas las páginas de nuestro website con un solo archivo CSS. */
+
+/* Développé par	
+CSS Working Group (en), Bert Bos, Håkon Wium Lie */
+/* Version initiale	
+17 décembre 1996 (29 ans, 106 jours) */
+/* https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade */
+
+/*  Los elementos de estilo son sobre escritos en cascada                                        */
+/*  -------------------------------------------------------------------------------------------- */
+/*  Browser Def. Styles → Overriden by ⤵                                                         */
+/*                             External Styles → Overriden by ⤵                                  */
+/*                                                    Embedded Pag. Styles → Overriden by ⤵      */
+/*                                                                                  Inline Style */
+
+h1{
+    text-align: left;
+    font-size: 50px;
+    color:aqua !important; /* con esta etiqueta, este estilo toma prioridad sobre los estilos definidos en las escalas inferiores */
+}

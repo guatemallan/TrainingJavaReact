@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios POST HTML</title>
+</head>
+<body>
+    <!-- ***** METODO GET ***** -->
+    <!-- En el URL, lo que se encuentra despues del simbolo de interrogación ? se conoce como "Query String"-->
+    <!-- /index.html?nombre=Luis&apellido=Perez -->
+    <!-- Se utiliza para enviar parametros al servidor -->
+
+    <!-- ***** METODO POST ***** -->
+    <!-- Se usa un HTTP Request en lugar del QueryString -->
+    <!-- De esta manera se puede ocultar información sensible del URL -->
+    <h1>Formularios en HTML</h1>
+
+    <!-- Si no se especifica el metodo, el default es GET -->
+    <!-- <form> -->
+    <!-- <form method="get">     -->
+    <form method="post">
+        <label for="nombre">Nombre: </label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
+        
+        <label for="apellido">Apellido: </label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/><br/>
+
+        <label for="password">Password: </label><br/>
+        <input type="password" id="password" name="password" required="true"/><br/>
+
+        <!-- Para visualizar la informacion en POST, podemos inspeccionar la pagina y dirigirnos a la pestaña Network -->
+        <!-- Veremos el query string en el apartado "Request" (Requête) -->
+        <input type="submit" value="Enviar"/>
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+    </form>
+</body>
+</html>

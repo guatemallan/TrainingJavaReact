@@ -1,0 +1,26 @@
+/* haremos que la lista se muestre como una barra de menu */
+h1{
+    color: red;
+}
+/* quitamos los iconos */
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/* hacemos que los items floten hacia la izquierda */
+li{
+    float: left;
+}
+/* seleccionamos li + a */
+li a{
+    display: block; 
+    color: white;
+    padding: 15px;
+    text-decoration: none; /* quitamos subrayado */
+}
+li a:hover{
+    background-color:#1d3557;
+}

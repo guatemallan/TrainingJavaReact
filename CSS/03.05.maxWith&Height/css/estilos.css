@@ -1,0 +1,44 @@
+/* eliminamos los margin y padding default para eliminar efectos no deseados */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    /* espacio entre el contenido y el border */
+    /* el orden va en la direccion del reloj */
+    /* top right bottom left */
+    padding: 10px 5px 25px 55px;
+
+    border: 15px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+
+    /* ajustamos al ancho de la pagina, hasta 600px */
+    /* width: 600px;  */
+    max-width: 600px;
+
+    /* lo mismo con el height */
+    /* se puede usar porcentaje de la página */
+    max-height: 100%;
+
+    
+    /* el ancho exacto es 300px + 2x10px(padding) + 2x15px(border) + 2x20px(margin) = 290px */
+
+    /* outline, entre margin y border */
+    /* no se toma en cuenta en la suma del tamano del elemento */
+    /* se le aplican las mismas caracteristicas del borde */
+    /* se coloca sobre todos los elementos despues del margen */
+    outline: 10px groove #9eb3c0c5;
+
+    /* podemos agregar espacio entre el margen y el outline */
+    outline-offset: 10px;
+    /* outline-offset: 10px 5px 3px 10px; esto es invalido */
+
+    /* esta propiedad limita el tamano del elemento al "border-box" (300px) */
+    box-sizing: border-box;
+
+}

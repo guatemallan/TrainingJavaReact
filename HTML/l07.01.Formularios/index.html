@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <!--<form novalidate> NOVALIDATE hace que la forma no se valide en el evento submit -->
+    <form>
+        <!-- El atributo ID sirve para relacionar los elementos en HTML -->
+        <!-- El atributo NAME sirve para relacionar los elementos con otras capas, por medio del URL -->
+        <!-- Notese que al presionar "Enviar" el URL cambia a: -->
+        <!-- .../index.html?nombre=Carlos&apellido=Lara -->
+        <label for="nombre">Nombre: </label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/> <!--value="Carlos"-->
+        <br/>
+        
+        <!-- El atributo VALUE le da un valor inicial al elemento, -->
+        <!-- Es util para cargar un valor desde el servidor, BD -->
+        <!-- El atributo placeholder le da un mensaje al usuario, que no forma parte de los datos enviados al servidor -->
+        <label for="apellido">Apellido: </label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/> <!-- value="Lara"-->
+        <br/>
+
+        <input type="submit" value="Enviar"/>
+        <!-- Esta es otra forma de enviar sin validar -->
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+    </form>
+</body>
+</html>

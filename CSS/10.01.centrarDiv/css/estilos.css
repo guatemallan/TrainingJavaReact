@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color:blueviolet
+}
+div{
+    border: 3px solid firebrick;
+    /* de esta manera centramos el elemento div */
+    /* es necesario proporcionar un width para que funcione */
+    /* con el porcentaje es dinamico */
+    /* width: 50%; */
+    margin: auto;
+    
+    /* con tamano estatico tenemos problemas si la pagina se vuelve menor que el tamano especificado */
+    /* width: 600px; */
+
+    /* Esto es una mezcla, se vuevle dinamico solo si la pagina disminuye del width especificado */
+    max-width: 600px;
+}

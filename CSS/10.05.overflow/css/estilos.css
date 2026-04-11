@@ -1,0 +1,28 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+
+    /* esta es la propiedad default */
+    /* overflow: visible; */
+
+    /* se recorta todo lo que se sale */
+    /* overflow: hidden; */
+
+    /* se muestran controles de scroll, aunque el texto no se salga */
+    /* overflow: scroll; */
+
+    /* solo muestra las barras necesarias, no muestra si no es necesario */
+    overflow: auto;
+
+    /* overflow solo se muestra si se limita el height */
+
+    /* overflow-x:  */
+    /* overflow-y: ; */
+}

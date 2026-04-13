@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Combinados CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Selectores combinados CSS</h1>
+
+    <div class="contenedor descendiente">
+        <h4>Selectores descendientes (en cualquier nivel interno)</h4>
+        <p>Primer Renglón</p>
+        <p>Segundo Renglón</p>
+        <section>
+            <!-- Este elemento es hijo indirecto del DIV, sin embargo el selector descendiente lo toma -->
+            <p>Tercer Renglón</p>
+        </section>
+    </div>
+
+    <div class="contenedor hijo">
+        <h4>Selectores hijo (child)</h4>
+        <p>Primer Renglón</p>
+        <p>Segundo Renglón</p>
+        <section>
+            <!-- Este elemento es hijo indirecto del DIV, por eso el selector tipo CHILD no lo tima en cuenta -->
+            <p>Tercer Renglón</p>
+        </section>
+        <div>
+            <p>Cuarto Renglón</p>
+        </div>
+            <p>Quinto Renglón</p>
+    </div>
+
+    <div class="contenedor adyacente">
+        <h4>Selector Adyacente</h4>
+        <p>Primer Renglón</p>
+        <section>
+            <p>Segundo Renglón</p>
+        </section>
+    </div>
+    <!-- EL selector adyacente selecciona los parrafos que estén despues del div, y no los  hijos directos -->
+    <p>Tercer Renglón (Adyacente)</p>
+    <p>Cuarto Renglón (No Adyacente)</p>
+
+
+    <div class="contenedor hermano">
+        <h4>Selector Hermano</h4>
+        <p>Primer Renglón</p>
+        <section>
+            <p>Segundo Renglón</p>
+        </section>
+    </div>
+    <!-- EL selector adyacente selecciona los parrafos que estén despues del div, y no los  hijos directos -->
+    <p>Tercer Renglón (Hermano, mismo nivel del DIV)</p>
+    <p>Cuarto Renglón (Hermano, mismo nivel del DIV)</p>
+</body>
+</html>

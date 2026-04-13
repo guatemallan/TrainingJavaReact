@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid cornflowerblue;
+    padding: 15px;
+    color: cornflowerblue;
+    text-align: center;
+}
+/* Este selector permite seleccionar el elemento pero unicamente cuando se activa el evento mouse hover */
+div.contenedor:hover{
+    background-color: #457b9b;
+    color: #f1faee;
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color: #a8dadc;
+    color: #023e8a;
+    padding: 15px;
+}
+
+/* Este selector selecciona solo el primer párrafo hijo */
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+}

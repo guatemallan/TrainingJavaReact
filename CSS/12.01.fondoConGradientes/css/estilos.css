@@ -1,0 +1,42 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+/* agregamos un gradiente lineal al fondo del body */
+body{
+    color: white;
+    /* si dejamos esta funcion así, el gradiente se repite despues del ultimo elemento */
+    /* background: linear-gradient(#f72583,#3a0ca3); */
+    /* para evitar esto agregamos el selector html con height auto y min-height 100% */
+
+    /* de esta manera cambiamos la direccion */
+    /* background: linear-gradient(to right,#f72583,#3a0ca3); */
+
+    /* en este caso hacemos un gradiente con 3 colores */
+    /* primero oscuro al claro y luego al negro */
+    /* background: linear-gradient(#24404d,#6dbff1, black); */
+
+    /* este genera diagonal desde el fondo a la derecha */
+    /* background: linear-gradient(to bottom right,#f72583,#3a0ca3); */
+
+    /* diagonal, pero con ángulo como referencia */
+    /* background: linear-gradient(45deg,#f72583,#3a0ca3); */
+
+    /* radial en base circulo */
+    background: radial-gradient(circle, #0d47a1, #62b0ef);
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}

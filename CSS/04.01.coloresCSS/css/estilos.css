@@ -1,0 +1,52 @@
+/* body{
+    background-color: cornflowerblue;
+} */
+h1{
+    text-align: center;
+    color: #e63946;
+}
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height:100px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    /* para que los elementos se acomoden hacia la izquierda */
+    float: left;
+}
+.rojo{
+    background-color: crimson;
+}
+.rosa{
+    background-color: deeppink;
+}
+.salmon{
+    background-color: rgb(250, 128, 114);
+    /* cada valor va de 0 a 255 */
+    color: rgb(0,0,255);
+}
+.salmont{
+    background-color: rgb(250, 128, 114,.5);
+    /* ausencia colores = negro */
+    color:rgb(0,0,0);
+}
+.lawngreen{
+    background-color: #00ff00;
+    /* simplificación por pares */
+    color: #000;
+}
+.lawngreent{
+    background-color: #00ff0088;
+    /* simplificación por pares */
+    color: #000;
+}
+.mediumorchid{
+    /* hue va de 0 a 300, los demas son porcentajes */
+    background-color: hsl(288, 59%, 58%);
+}
+.mediumorchidt{
+    /* hue va de 0 a 300, los demas son porcentajes */
+    background-color: hsl(288, 59%, 58%,50%);
+}

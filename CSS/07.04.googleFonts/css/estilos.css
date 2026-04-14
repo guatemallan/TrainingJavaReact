@@ -1,0 +1,57 @@
+/* Código copiado de Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&family=Trocchi&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto|Saira+Stencil|Trocchi&effect=shadow-multiple');
+
+.trocchi-regular {
+  font-family: "Trocchi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-ejemplo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.saira-stencil {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* USO DE EFECTOS DE LA VERSION 1 DEL API DE GOOGLE FONTS */
+/* la sintaxis cambia un poco, se puede encontrar documentacion en google developers */
+
+/* importamos v1, la sintaxis cambia un poco */
+/* se retira el 2 de css2 para poder utilizar la version 1 */
+/* las fonts se separan por pipes y se incluye el nombre del efecto a utilizar */
+/* @import url('https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple'); */
+
+/* para aplicar el efecto a nustro texto, debemos aplicar la clase segun la documentacion de google. el link de docs en el cuurso y el actual no son iguales, investigar */
+
+/* el efecto solo funciona si el import esté al inicio del archivo css */
+
+h1{
+    color:#ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 2px #ced4da; */
+    font-family: Sofia, cursive;
+}
+
+.fuente-roboto{
+    /* font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: nomrnal;
+    font-variant: small-caps;
+    font-size: 20px; */
+
+    /* TODAS ESTAS PROPIEDADES SE PUEDEN RESUMIR como (respetar el orden): */
+    /* font: font-style font-variant font-weight (opcional)font-size/line-height 'font-family'; */
+    font: italic small-caps bolder 20px/30px  Roboto, sans-serif;
+}

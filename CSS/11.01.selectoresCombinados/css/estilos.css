@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid cornflowerblue;
+    padding: 15px;
+    color: #457b9d;
+}
+/* SELECTOR COMBINADO tipo DESCENDIENTE */
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}
+/* SELECTOR COMBINADO tipo CHILD */
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+/* SELECTOR COMBINADO tipo ADYACENTE */
+div.contenedor.adyacente + P{
+    background-color: #caffbf;
+}
+/* SELECTOR COMBINADO tipo HERMANO (~ alt+126) */
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
+}

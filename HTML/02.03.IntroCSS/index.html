@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Elementos Básicos HTML</title>
+
+    <!-- 7. Hojas de estilo CSS (Cascading Style Sheets) ****************************************************** -->
+    <!--    Utilizadas para manejar el estilo de multiples elementos a la vez -->
+    <!--    Se pueden aplicar a multiples niveles, desde este ejemplo para una sola pagina -->
+    <!--    hasta una pagina CSS que maneja todo el website. -->
+    
+    <!-- Estilo aplicado directamente para la pagina ->
+    <style>
+        /* Selector para los elementos h1 */
+        h1{
+            color:blue;
+        }
+        p{
+            color:white;
+            background-color:crimson;
+        }
+    </style-->
+
+    <!-- Estilo manejado desde otro archivo -->
+    <!-- BUENA PRACTICA: Colocar los CSS dentro de una carpeta llamada CSS -->
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <!-- Este estilo sobreescribe a la pagina externa de estilos : -->
+    <style> 
+        h1{
+            color:lightcoral;
+        }
+    </style>
+</head>
+<!--body style="background-color:aliceblue;"-->
+<body>
+    <!-- Este estilo sobre escribe el estilo definido en el header, que sobre escribe el estilo en la pagina de estilos -->
+    <h1 style="color:lightslategray;background-color: lavender;">Universidad HTML</h1>
+    <p>
+        Bienvenido a CSS!
+    </p>
+    <p>
+        Saludos!
+    </p>
+    <a href="contenido.html">Ir a contenido</a>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Se instala como un modulo JavaScript al cerrar el body en el html */
+h1{
+    color: crimson;
+    text-align: center;
+}
+.fondo{
+    vertical-align: bottom;
+    color:blueviolet;
+}
+.icono-grande{
+    font-size: 3em;
+}

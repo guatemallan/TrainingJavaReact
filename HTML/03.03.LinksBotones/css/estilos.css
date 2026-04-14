@@ -1,0 +1,16 @@
+h1{
+    color: #560bad;
+}
+/* simulacion de boton */
+a:link,a:visited{ /* se aplica el mismo estilo para ambos estados */
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* para evitar que el siguiente boton se coloque sobre/debajo del anterior */
+}
+
+a:hover,a:active{
+    background-color: #f72585;
+}

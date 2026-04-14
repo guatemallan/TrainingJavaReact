@@ -1,0 +1,32 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    
+    /* valor default */
+    /* float: none; */
+}
+div.contenedor.izq{
+    /* se apilan hacia la izquierda hasta que sobrepasan el ancho de la*/
+    float: left;
+}
+div.contenedor.der{
+
+    /* se apilan hacia la derecha hasta que sobrepasan el ancho de la*/
+    float: right;
+    border: 3px dotted cornflowerblue;
+}
+div.contenedor.centrado{
+    border: 3px double darkorange;
+    /* clear: left;
+    clear: right; */
+    /* debemos limpiar las propiedades float anteriores */
+    clear:both;
+    margin: auto;
+}

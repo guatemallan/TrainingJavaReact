@@ -1,0 +1,38 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid cornflowerblue;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
+ul.menu{
+    list-style-type: none;
+    text-align: center;
+
+}
+/* convertimos inline a inline block para separar correctamente */
+ul.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}

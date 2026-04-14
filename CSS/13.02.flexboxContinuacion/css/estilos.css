@@ -1,0 +1,56 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+div.contenedor{
+    display: flex;
+
+    background-color: #560bad;
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap; */
+    /* justify-content: left; */
+    /* justify-content: right; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+    height: 350px;
+
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* align-items alinea horizontalmente */
+    /* align-content alinea verticalmente */
+    /* align-content: center; */
+    align-content: space-between;
+}
+div.contenedor p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+p.grande{
+    height: 100px;
+
+    /* de esta manera logramos que ocupe mas espacio horizontalmente */
+    /* el valor default es 0 */
+    flex-grow: 5;
+}
+p.mediano{
+    height: 75px;
+    /* ancho */
+    flex-basis: 100px;
+    /* alineamos de manera vertical unicamente este elemento */
+    align-self: center;
+}

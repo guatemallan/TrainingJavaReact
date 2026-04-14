@@ -1,0 +1,71 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+div.contenedor{
+    /* de esta manera se acomodan los elementos de manera mucho más sencilla, sin flotarlo ni modificar más propiedades */
+    display: flex;
+
+    background-color: #560bad;
+
+    /* en 1 columna, vertical */
+    /* flex-direction: column; */
+
+    /* en 1 columna, con order inverso */
+    /* flex-direction: column-reverse; */
+
+    /* row, es el default */
+    /* flex-direction: row; */
+
+    /* renglon, en orden inverso */
+    /* flex-direction: row-reverse; */
+
+    /* se ajustan al ancho de la ventana */
+    /* flex-wrap: wrap; */
+
+    /* las mismas propiedades, en una linea */
+    /* flex-flow: row-reverse wrap; */
+
+    /* de esta manera alineamos los elementos */
+    /* justify-content: left; */
+    /* justify-content: right; */
+    /* justify-content: center; */
+    
+    /* se justifican */
+    /* justify-content: space-between; */
+
+    /* se justifican, pero se deja un espacio a ambos lados */
+    /* justify-content: space-around; */
+
+    /* similar al anterior pero el espacio entre los lados y los elementos es el mismo */
+    justify-content: space-evenly;
+
+    /* los elementos se ajustan al alto */
+    height: 300px;
+
+    /* ya no se ajustan al alto, y se alinean arriba */
+    /* align-items: flex-start; */
+
+    /* no se ajustan a la altura, y se centran */
+    align-items: center;
+
+    /* valor default, toman todo el alto */
+    /* align-items: stretch; */
+
+    /* este toma como base la linea de las fuentes, hay que cambiar el tamano de la fuente para notarlo */
+    /* align-items: baseline; */
+}
+div.contenedor p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+p.grande{
+    height: 100px;
+}
+p.mediano{
+    height: 75px;
+}

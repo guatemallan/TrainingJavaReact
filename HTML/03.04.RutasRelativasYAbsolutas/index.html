@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Links HTML con CSS</title>
+</head>
+<body>
+    <h1>Universidad HTML</h1>
+    <hr/>
+    <br/>
+    <!-- Ruta relativa: -->
+    <!-- <a href="contenido.html">Ir a contenido</a> -->
+    <br/>
+    <!--El path absoluto, no recomendado utilizar ya que -->
+    <!--   seria problematico si el IP o el puerto cambian -->
+    <!-- <a href="http://127.0.0.1:5500/HTML/L03.04.RutasRelativasYAbsolutas/contenido.html">Ir a contenido</a> -->
+
+    <!-- Ya que moví la pagina a web, debo colocar esto en el path -->
+    <!-- <a href="web/contenido.html">Ir a contenido</a> -->
+    
+    <!-- Y si ambas paginas están en carpetas diferentes? -->
+    <!--   ContextRoot: colocamos "/" al inicio, para indicar que estamos en el nivel raiz -->
+    <!--   Esto es la mejor práctica -->
+    <a href="/HTML/L03.04.RutasRelativasYAbsolutas/web/contenido.html">Ir a contenido</a>
+    <br/>
+    <a href="https://globalmentoring.com.mx" target="_blank">
+        Global Mentoring
+    </a>
+</body>
+</html>

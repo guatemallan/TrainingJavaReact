@@ -1,0 +1,29 @@
+h1,div,p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /* la propiedad default de estos elementos es block */
+    /* Modificamos su forma de despliegue (display) */
+    /* display: inline; */
+}
+/* modificamos display para simular un salto de linea */
+span,a{
+    display: block;
+    text-align: right;
+}
+li{
+    display: inline;
+}
+
+/* Display NONE : oculta el elemento */
+/* si inspeccionamos la pagina, podemos ver que el html1 si tiene el h1 */
+h1{
+    display: none;
+}
+
+/* esta es otra manera de ocultar */
+/* en este caso, se reseva el espacio, solo que no se ve */
+p{
+    visibility: hidden;
+}

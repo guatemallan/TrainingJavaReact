@@ -1,0 +1,18 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+}
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+img.imagen{
+    width: 100%;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}

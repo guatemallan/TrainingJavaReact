@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Z-Index</h1>
+    <div class="estatico">
+        Elemento no posicionado (static)
+    </div>
+    <div class="relativo-abajo">
+        <p>
+            Segundo elemento (relative) con <code>z-index=-1</code>
+        </p> 
+    </div>
+    <div class="relativo-sobre">
+        <p>
+            Tercer elemento (relative) con <code>z-index: -1;</code>
+        </p> 
+        <div class="absoluto">
+            Cuarto elemento absoluto<code>z-index: -10000;</code>
+        </div>
+    </div>
+    <hr/>
+    <img src="img/z.png" alt="Z Pos"/>
+    <p>Se considera elementos posicionados a los elementos a los cuales se les ha especificado un <code>position</code> diferente del default (static).</p>
+    <p>Los elementos no posicionados tienen propiedad <code>z-index=auto;</code></p>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid cornflowerblue;
+    padding: 15px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+/* Selector Pseudo elemento seleccion */
+div.contenedor p::selection{
+    background-color: yellow;
+    color: red;
+}
+/* Solo primer linea */
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+/* solo primer letra */
+div.contenedor p::first-letter{
+    font-size: 15px;
+    color: crimson;
+}
+
+/* Agregar texto antes del parrafo */
+div.contenedor p::before{
+    content: "~ ";
+}
+
+/* agregar texto o elementos despues del parrafo */
+div.contenedor p::after{
+    content: " .-";
+    /* Podemos agregar imágenes o iconos utilizando la funcion url*/
+    /* content: url('/img/xyz.ico') */
+}

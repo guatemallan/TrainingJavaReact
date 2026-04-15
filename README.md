@@ -1,13 +1,12 @@
-# Training Java & React
+# Entrenamiento de Java y React
 
-Refresco de Java, HTML. Aprendizaje de CSS, JavaScript y React.
+Refresco de Java y HTML. Aprendizaje de CSS, JavaScript y React.
 
 
-## RUTA:
-1. [HTML](#html)
-2. [CSS](#css)
-3. [JavaScript](#javascript)
-4. [React](#react)
+#### RUTA:
+
+{ [HTML](#html) → [CSS](#css) → [JavaScript](#javascript) → [React](#react) }
+[Java](#java) ⤶
 
 # HTML
 
@@ -20,6 +19,7 @@ Refresco de Java, HTML. Aprendizaje de CSS, JavaScript y React.
 - Live Server Preview
 - Lorem ipsum
 - Path Intellisense
+- Prettier - Code formatter
 
 ## Contenido
 
@@ -33,7 +33,7 @@ Verificar archivos HTML y CSS para las notas completas.
     4. [Box Model](HTML/02.04.BoxModelCSS/index.html)
 3. Links y Rutas
     1. [Links](HTML/03.01.LinksCSS/index.html)
-    2. [Imagenes con Link](HTML/03.02.LinksImagen/index.html)
+    2. [Imágenes con Link](HTML/03.02.LinksImagen/index.html)
     3. [Botones con Link](HTML/03.03.LinksBotones/index.html)
     4. [Rutas relativas y absolutas](HTML/03.04.RutasRelativasYAbsolutas/index.html)
 4. Tablas
@@ -96,15 +96,15 @@ Verificar archivos HTML y CSS para las notas completas.
     1. [Centrar un DIV](CSS/10.01.centrarDiv/css/estilos.css)
     2. [Propiedad Position](CSS/10.02.posicionamiento/css/estilos.css)
     3. [Posicionamiento en eje Z: Z-Index](CSS/10.03.Z-Index/css/estilos.css)
-    4. [Ejemplo de posicionameinto](CSS/10.04.ejemplo/index.html)
+    4. [Ejemplo de posicionamiento](CSS/10.04.ejemplo/index.html)
     5. [Overflow](CSS/10.05.overflow/css/estilos.css)
     6. [Float, alineación consecutiva de elementos](CSS/10.06.float/css/estilos.css)
     7. [Display: Inline vs Block](CSS/10.07.displayInlineBlock/css/estilos.css)
-11. Selectores Combinados, Pseduo Clases y Pseudo Elementos
+11. Selectores Combinados, Pseudo Clases y Pseudo Elementos
     1. [Selectores combinados](CSS/11.01.selectoresCombinados/css/estilos.css)
     2. [Pseudo Clases](/CSS/11.02.PsoudoClases/css/estilos.css)
     3. [Pseudo Elementos](/CSS/11.03.PsoudoElementos/css/estilos.css)
-    4. [Pseudo clases con imagenes](/CSS/11.04.PseudoClaseConImagen/css/estilos.css)
+    4. [Pseudo clases con imágenes](/CSS/11.04.PseudoClaseConImagen/css/estilos.css)
 12. Gradientes y Sombras
     1. [Background con gradiente](/CSS/12.01.fondoConGradientes/css/estilos.css)
     2. [Sombras](/CSS/12.02.Sombras/css/estilos.css)
@@ -116,11 +116,22 @@ Verificar archivos HTML y CSS para las notas completas.
 
 # JavaScript
 
-Por desarrollar...
+1. Introducción
+    1. [JavaScript](JS/00.01.Introducción/Introducción.md)
+    2. [JIT Compilation](JS/00.01.Introducción/Introducción.md#jit)
+    3. [First-class functions](JS/00.01.Introducción/Introducción.md#funciones-de-primera-clase)
+    4. [Herramientas a utilizar](JS/00.01.Introducción/Introducción.md#herramientas-a-utilizar-durante-el-entrenamiento)
+    5. [Referencias](JS/00.01.Introducción/Introducción.md#referencias)
 
 [Volver al inicio](#)
 
 # React
+
+Por desarrollar...
+
+[Volver al inicio](#)
+
+# Java
 
 Por desarrollar...
 

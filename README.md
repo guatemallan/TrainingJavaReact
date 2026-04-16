@@ -10,22 +10,12 @@ Refresco de Java y HTML. Aprendizaje de CSS, JavaScript y React.
 
 # HTML
 
-#### Complementos VSCode recomendados:
-
-- Visual Studio Code CSS Intellisense for HTML
-- IntelliSense for CSS class names in HTML
-- VSCode Color Info
-- Live Server
-- Live Server Preview
-- Lorem ipsum
-- Path Intellisense
-- Prettier - Code formatter
-
-## Contenido
-
 Verificar archivos HTML y CSS para las notas completas.
 
-1. [Introducción](/HTML/L01.01.intro/index.html)
+1. Introducción
+    1. [Introducción](HTML/01.01.intro/introduccion.md#html)
+    2. [Herramientas a utilizar](HTML/01.01.intro/introduccion.md#herramientas-a-utilizar-durante-el-entrenamiento)
+    3. [HTML Básico](/HTML/01.01.intro/index.html)
 2. Estilos y Formatos
     1. [Formatos](/HTML/02.02.style/index.html)
     2. [Estilo CSS](HTML/02.02.style/index.html)
@@ -63,9 +53,12 @@ Verificar archivos HTML y CSS para las notas completas.
 Verificar archivos HTML y CSS para las notas completas.
 
 1. Introducción
-    1. [Introducción](CSS/01.01.introCSS/index.html)
-    2. [Selectores](CSS/01.02.Selectores/css/estilos.css)
-    3. [Agrupación de elementos](CSS/01.03.AgruparElementos/css/estilos.css)
+    1. [CSS](CSS/01.01.introCSS/introduccion.md#css)
+    2. [Cascada](CSS/01.01.introCSS/introduccion.md#jerarquía-de-cascada)
+    3. [Herramientas a utilizar](CSS/01.01.introCSS/introduccion.md#herramientas-a-utilizar-durante-el-entrenamiento)
+    4. [CSS Básico](CSS/01.01.introCSS/index.html)
+    5. [Selectores](CSS/01.02.Selectores/css/estilos.css)
+    6. [Agrupación de elementos](CSS/01.03.AgruparElementos/css/estilos.css)
 2. Formato
     1. [Colores](CSS/02.01.colores/css/estilos.css)
     2. [Bordes](CSS/02.02.bordes/css/estilos.css)

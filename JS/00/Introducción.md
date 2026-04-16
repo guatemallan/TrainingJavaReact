@@ -1,6 +1,6 @@
 # JavaScript
 
-JS es un lenguaje de programación interpretado [JIT](#jit) con [funciones de primera clase](#funciones-de-primera-clase). Es conocido como el lenguaje script para páginas web. Sin embargo, es utilizado también en ambientes no web, como Node.js. 
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) es un lenguaje de programación interpretado [JIT](#jit) con [funciones de primera clase](#funciones-de-primera-clase). Es conocido como el lenguaje script para páginas web. Sin embargo, es utilizado también en ambientes no web, como Node.js. 
 
 La mayoría de navegadores web, como Chrome, Safari, Firefox, Edge, etc. tienen la capacidad de interpretar JavaScript. 
 

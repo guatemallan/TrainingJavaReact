@@ -6,16 +6,17 @@ Refresco de Java y HTML. Aprendizaje de CSS, JavaScript y React.
 #### RUTA:
 
 { [HTML](#html) → [CSS](#css) → [JavaScript](#javascript) → [React](#react) }
+
 [Java](#java) ⤶
 
 # HTML
 
 Verificar archivos HTML y CSS para las notas completas.
 
-1. Introducción
+0. Introducción
     1. [Introducción](HTML/01.01.intro/introduccion.md#html)
     2. [Herramientas a utilizar](HTML/01.01.intro/introduccion.md#herramientas-a-utilizar-durante-el-entrenamiento)
-    3. [HTML Básico](/HTML/01.01.intro/index.html)
+1. [HTML Básico](/HTML/01.01.intro/index.html)
 2. Estilos y Formatos
     1. [Formatos](/HTML/02.02.style/index.html)
     2. [Estilo CSS](HTML/02.02.style/index.html)
@@ -52,13 +53,14 @@ Verificar archivos HTML y CSS para las notas completas.
 
 Verificar archivos HTML y CSS para las notas completas.
 
-1. Introducción
+0. Introducción
     1. [CSS](CSS/01.01.introCSS/introduccion.md#css)
     2. [Cascada](CSS/01.01.introCSS/introduccion.md#jerarquía-de-cascada)
     3. [Herramientas a utilizar](CSS/01.01.introCSS/introduccion.md#herramientas-a-utilizar-durante-el-entrenamiento)
-    4. [CSS Básico](CSS/01.01.introCSS/index.html)
-    5. [Selectores](CSS/01.02.Selectores/css/estilos.css)
-    6. [Agrupación de elementos](CSS/01.03.AgruparElementos/css/estilos.css)
+1. CSS Básico
+    1. [CSS Básico](CSS/01.01.introCSS/index.html)
+    2. [Selectores](CSS/01.02.Selectores/css/estilos.css)
+    3. [Agrupación de elementos](CSS/01.03.AgruparElementos/css/estilos.css)
 2. Formato
     1. [Colores](CSS/02.01.colores/css/estilos.css)
     2. [Bordes](CSS/02.02.bordes/css/estilos.css)
@@ -109,12 +111,14 @@ Verificar archivos HTML y CSS para las notas completas.
 
 # JavaScript
 
-1. Introducción
-    1. [JavaScript](JS/00.01.Introducción/Introducción.md)
-    2. [JIT Compilation](JS/00.01.Introducción/Introducción.md#jit)
-    3. [First-class functions](JS/00.01.Introducción/Introducción.md#funciones-de-primera-clase)
-    4. [Herramientas a utilizar](JS/00.01.Introducción/Introducción.md#herramientas-a-utilizar-durante-el-entrenamiento)
-    5. [Referencias](JS/00.01.Introducción/Introducción.md#referencias)
+0. Introducción
+    1. [JavaScript](JS/00/Introducción.md)
+    2. [JIT Compilation](JS/00/Introducción.md#jit)
+    3. [First-class functions](JS/00/Introducción.md#funciones-de-primera-clase)
+    4. [Herramientas a utilizar](JS/00/Introducción.md#herramientas-a-utilizar-durante-el-entrenamiento)
+    5. [Referencias](JS/00/Introducción.md#referencias)
+1. JS Básico
+    1. [Hola Mundo](JS/01/01.holaMundo.js)
 
 [Volver al inicio](#)
 

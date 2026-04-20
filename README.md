@@ -123,7 +123,7 @@ Verificar archivos HTML y CSS para las notas completas.
     2. [Mejores prácticas con variables](JS/02.variables/03.mejoresPracticasDeclaracionVariables.js)
 3. Operadores
     1. [Introducción a operadores](JS/03.operadores/01.operadores.js)
-    2. [Tabla de precedencia de operadores](JS/03.operadores/precedenciaDeOperadores.md)
+    2. [Tabla de precedencia de operadores](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
     3. [Precedencia de operadores](JS/03.operadores/02.precedenciaOperadores.js)
 
 [Volver al inicio](#)

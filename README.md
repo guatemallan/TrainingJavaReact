@@ -117,8 +117,14 @@ Verificar archivos HTML y CSS para las notas completas.
     3. [First-class functions](JS/00/Introducción.md#funciones-de-primera-clase)
     4. [Herramientas a utilizar](JS/00/Introducción.md#herramientas-a-utilizar-durante-el-entrenamiento)
     5. [Referencias](JS/00/Introducción.md#referencias)
-1. JS Básico
-    1. [Hola Mundo](JS/01/01.holaMundo.js)
+1. [JS Básico](JS/01/01.holaMundo.js)
+2. Variables
+    1. [Declaración de variables](JS/02.variables/02.declaracionVariables.js)
+    2. [Mejores prácticas con variables](JS/02.variables/03.mejoresPracticasDeclaracionVariables.js)
+3. Operadores
+    1. [Introducción a operadores](JS/03.operadores/01.operadores.js)
+    2. [Tabla de precedencia de operadores](JS/03.operadores/precedenciaDeOperadores.md)
+    3. [Precedencia de operadores](JS/03.operadores/02.precedenciaOperadores.js)
 
 [Volver al inicio](#)
 

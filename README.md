@@ -125,6 +125,13 @@ Verificar archivos HTML y CSS para las notas completas.
     1. [Introducción a operadores](JS/03.operadores/01.operadores.js)
     2. [Tabla de precedencia de operadores](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
     3. [Precedencia de operadores](JS/03.operadores/02.precedenciaOperadores.js)
+    4. [Operadores de Asignación](JS/03.operadores/03.operadoresAsignacion.js)
+    5. [Operadores de Comparación](JS/03.operadores/04.operadoresComparacion.js)
+    6. [Operadores Relacionales](JS/03.operadores/05.operadoresRelacionales.js)
+    7. [Operadores Lógicos](JS/03.operadores/06.operadoresLogicos.js)
+    8. [Operador Ternario](JS/03.operadores/07.operadorTernario.js)
+    9. [Función isNaN](JS/03.operadores/08.isNaN.js)
+    10. [Ejemplos de Precedencia](JS/03.operadores/09.ejerciciosPrecedencia.js)
 
 [Volver al inicio](#)
 

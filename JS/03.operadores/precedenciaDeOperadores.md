@@ -111,5 +111,3 @@
     </tr>
 
 </table>
-
-<!-- #TODO: insertar imagen tabla de precendencia  -->

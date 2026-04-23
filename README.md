@@ -132,6 +132,18 @@ Verificar archivos HTML y CSS para las notas completas.
     8. [Operador Ternario](JS/03.operadores/07.operadorTernario.js)
     9. [Función isNaN](JS/03.operadores/08.isNaN.js)
     10. [Ejemplos de Precedencia](JS/03.operadores/09.ejerciciosPrecedencia.js)
+4. Sentencias de control
+    1. [If - Else](JS/04.sentenciasDeControl/01.ifElse.js)
+    2. [Switch](JS/04.sentenciasDeControl/02.switch.js)
+5. Ciclos
+    1. [While](JS/05.ciclos/01.while.js)
+    2. [For](JS/05.ciclos/02.for.js)
+    3. [Break](JS/05.ciclos/03.palabraBreak.js)
+    4. [Continue](JS/05.ciclos/04.palabraContinue.js)
+    5. [Label](JS/05.ciclos/06.labels.js)
+6. Arreglos
+    1. [Declaración y manejo de arreglos](/JS/06.arreglos/01.declaracionYManejoArreglos.js)
+    2. [Precauciones con arreglos](/JS/06.arreglos/02.precaucionesArreglos.js)
 
 [Volver al inicio](#)
 

@@ -1,4 +1,4 @@
-// POR VALOR Y POR REFERENCIA
+// POR VALOR (BY VALUE)
 
 //valor primitivo, no tiene atributos ni métodos
 let x = 10;

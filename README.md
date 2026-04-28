@@ -144,6 +144,23 @@ Verificar archivos HTML y CSS para las notas completas.
 6. Arreglos
     1. [Declaración y manejo de arreglos](/JS/06.arreglos/01.declaracionYManejoArreglos.js)
     2. [Precauciones con arreglos](/JS/06.arreglos/02.precaucionesArreglos.js)
+7. Funciones
+    1. [Funciones y hoisting](JS/07.funciones/01.funcionesYHoisting.js)
+    2. [Return](JS/07.funciones/02.return.js)
+    3. [Funciones tipo expresión](JS/07.funciones/03.funcionesTipoExpresion.js)
+    4. [Funciones *Self Invoking*](JS/07.funciones/04.funcionesSelfInvoking.js)
+    5. [Funciones como objeto](JS/07.funciones/05.funcionesComoObjeto.js)
+    6. [Funciones *arrow*](JS/07.funciones/06.funcionesArrow.js)
+    7. [Argumentos y parámetros](JS/07.funciones/07.argumentosYParametros.js)
+    8. [Paso por valor (*by value*)](JS/07.funciones/08.pasoPorValor.js)
+    9. [Paso por referencia (*by reference*)](JS/07.funciones/09.pasoPorReferencia.js)
+8. Objetos
+    1. [Objetos y propiedades](JS/08.objetos/01.objetosYPropiedades.js)
+    2. [Creación de objetos](JS/08.objetos/02.creacionDeObjetos.js)
+    3. [Acceso a propiedades](JS/08.objetos/03.accesoAPropiedades.js)
+    4. [Adición y eliminación de propiedades](JS/08.objetos/04.agregarQuitarPropiedades.js)
+    5. [Formas de imprimir un objeto](JS/08.objetos/05.imprimirObjeto.js)
+    6. [Metodos *getter* y *setter*](JS/08.objetos/06.metodosGetSet.js)
 
 [Volver al inicio](#)
 

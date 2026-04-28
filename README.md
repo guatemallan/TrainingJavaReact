@@ -117,8 +117,50 @@ Verificar archivos HTML y CSS para las notas completas.
     3. [First-class functions](JS/00/Introducción.md#funciones-de-primera-clase)
     4. [Herramientas a utilizar](JS/00/Introducción.md#herramientas-a-utilizar-durante-el-entrenamiento)
     5. [Referencias](JS/00/Introducción.md#referencias)
-1. JS Básico
-    1. [Hola Mundo](JS/01/01.holaMundo.js)
+1. [JS Básico](JS/01/01.holaMundo.js)
+2. Variables
+    1. [Declaración de variables](JS/02.variables/02.declaracionVariables.js)
+    2. [Mejores prácticas con variables](JS/02.variables/03.mejoresPracticasDeclaracionVariables.js)
+3. Operadores
+    1. [Introducción a operadores](JS/03.operadores/01.operadores.js)
+    2. [Tabla de precedencia de operadores](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
+    3. [Precedencia de operadores](JS/03.operadores/02.precedenciaOperadores.js)
+    4. [Operadores de Asignación](JS/03.operadores/03.operadoresAsignacion.js)
+    5. [Operadores de Comparación](JS/03.operadores/04.operadoresComparacion.js)
+    6. [Operadores Relacionales](JS/03.operadores/05.operadoresRelacionales.js)
+    7. [Operadores Lógicos](JS/03.operadores/06.operadoresLogicos.js)
+    8. [Operador Ternario](JS/03.operadores/07.operadorTernario.js)
+    9. [Función isNaN](JS/03.operadores/08.isNaN.js)
+    10. [Ejemplos de Precedencia](JS/03.operadores/09.ejerciciosPrecedencia.js)
+4. Sentencias de control
+    1. [If - Else](JS/04.sentenciasDeControl/01.ifElse.js)
+    2. [Switch](JS/04.sentenciasDeControl/02.switch.js)
+5. Ciclos
+    1. [While](JS/05.ciclos/01.while.js)
+    2. [For](JS/05.ciclos/02.for.js)
+    3. [Break](JS/05.ciclos/03.palabraBreak.js)
+    4. [Continue](JS/05.ciclos/04.palabraContinue.js)
+    5. [Label](JS/05.ciclos/06.labels.js)
+6. Arreglos
+    1. [Declaración y manejo de arreglos](/JS/06.arreglos/01.declaracionYManejoArreglos.js)
+    2. [Precauciones con arreglos](/JS/06.arreglos/02.precaucionesArreglos.js)
+7. Funciones
+    1. [Funciones y hoisting](JS/07.funciones/01.funcionesYHoisting.js)
+    2. [Return](JS/07.funciones/02.return.js)
+    3. [Funciones tipo expresión](JS/07.funciones/03.funcionesTipoExpresion.js)
+    4. [Funciones *Self Invoking*](JS/07.funciones/04.funcionesSelfInvoking.js)
+    5. [Funciones como objeto](JS/07.funciones/05.funcionesComoObjeto.js)
+    6. [Funciones *arrow*](JS/07.funciones/06.funcionesArrow.js)
+    7. [Argumentos y parámetros](JS/07.funciones/07.argumentosYParametros.js)
+    8. [Paso por valor (*by value*)](JS/07.funciones/08.pasoPorValor.js)
+    9. [Paso por referencia (*by reference*)](JS/07.funciones/09.pasoPorReferencia.js)
+8. Objetos
+    1. [Objetos y propiedades](JS/08.objetos/01.objetosYPropiedades.js)
+    2. [Creación de objetos](JS/08.objetos/02.creacionDeObjetos.js)
+    3. [Acceso a propiedades](JS/08.objetos/03.accesoAPropiedades.js)
+    4. [Adición y eliminación de propiedades](JS/08.objetos/04.agregarQuitarPropiedades.js)
+    5. [Formas de imprimir un objeto](JS/08.objetos/05.imprimirObjeto.js)
+    6. [Metodos *getter* y *setter*](JS/08.objetos/06.metodosGetSet.js)
 
 [Volver al inicio](#)
 

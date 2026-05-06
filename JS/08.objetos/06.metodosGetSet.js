@@ -29,7 +29,7 @@ console.log(persona.nombreCompleto); // Al usar el getter, no se necesitan paré
 console.log(persona.lang); // Al usar el getter, no se necesitan paréntesis para acceder al valor calculado.    
 
 
-// probamos lang
+// probamos metodo SET lang
 persona.lang = "en us"; // Al usar el setter, se asigna un nuevo valor a la propiedad idioma, convirtiéndolo a mayúsculas.
 console.log(persona.lang); // Al usar el getter, no se necesitan paréntesis para acceder al valor calculado.
 console.log(persona.idioma); // Accedemos directamente a la propiedad idioma para verificar que se ha actualizado correctamente.

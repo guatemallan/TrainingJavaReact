@@ -155,12 +155,20 @@ Verificar archivos HTML y CSS para las notas completas.
     8. [Paso por valor (*by value*)](JS/07.funciones/08.pasoPorValor.js)
     9. [Paso por referencia (*by reference*)](JS/07.funciones/09.pasoPorReferencia.js)
 8. Objetos
-    1. [Objetos y propiedades](JS/08.objetos/01.objetosYPropiedades.js)
+    1. [Definición de objetos y propiedades](JS/08.objetos/01.objetosYPropiedades.js)
     2. [Creación de objetos](JS/08.objetos/02.creacionDeObjetos.js)
     3. [Acceso a propiedades](JS/08.objetos/03.accesoAPropiedades.js)
     4. [Adición y eliminación de propiedades](JS/08.objetos/04.agregarQuitarPropiedades.js)
     5. [Formas de imprimir un objeto](JS/08.objetos/05.imprimirObjeto.js)
-    6. [Metodos *getter* y *setter*](JS/08.objetos/06.metodosGetSet.js)
+    6. [Métodos *getter* y *setter*](JS/08.objetos/06.metodosGetSet.js)
+    7. [Constructor y Prototipos](JS/08.objetos/07.constructoresYPrototipos.js)
+    8. [Métodos *Call* y *Apply*](JS/08.objetos/08.metodosCallYApply.js)
+9. Clases
+    1. [Definición de clases](/JS/09.clases/01.definicionDeClases.js)
+    2. [Métodos *getter* y *setter*](/JS/09.clases/02.getterYSetter.js)
+    3. [Clases e imposibilidad de *hoisting*](/JS/09.clases/03.hoistingYClases.js)
+    4. [Herencia y sobreescritura](/JS/09.clases/04.herenciaYSobreescritura.js)
+    5. [Clase *Object* y polimorfismo](/JS/09.clases/05.claseObjectPolimorfismo.js)
 
 [Volver al inicio](#)
 

@@ -169,6 +169,11 @@ Verificar archivos HTML y CSS para las notas completas.
     3. [Clases e imposibilidad de *hoisting*](/JS/09.clases/03.hoistingYClases.js)
     4. [Herencia y sobreescritura](/JS/09.clases/04.herenciaYSobreescritura.js)
     5. [Clase *Object* y polimorfismo](/JS/09.clases/05.claseObjectPolimorfismo.js)
+    6. [Elementos estáticos](/JS/09.clases/06.static.js)
+    7. [Emulación de constante estática](/JS/09.clases/07.constanteEstatica.js)
+
+99. Ejercicios y ejemplos
+    1. [Ejercicio de herencia, polimorfismo, sobreescritura y elementos estáticos](/JS/99.Ejercicios/01.herencia.js)
 
 [Volver al inicio](#)
 
